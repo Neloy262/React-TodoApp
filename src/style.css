@@ -10,8 +10,7 @@ html,body{
 .todolist{
 display: block;
 margin: auto;
-width: 75%;
-height: max-content;
+
 }
 input[type=checkbox] {
     transform: scale(1.5);

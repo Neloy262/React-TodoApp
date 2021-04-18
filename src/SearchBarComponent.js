@@ -15,6 +15,7 @@ class SearchBarComponent extends React.Component {
           onSubmit={(e) => {
             e.preventDefault();
             this.props.onFormSubmit(this.state.text);
+            this.setState({text:""})
           }}
         style={{display:'flex',justifyContent:'center'}}>
             <div className="form-group col-md-6">
