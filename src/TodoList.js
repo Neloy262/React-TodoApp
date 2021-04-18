@@ -25,6 +25,7 @@ class TodoList extends React.Component {
           />
           <button onClick={this.props.OnDelete} id={i++} style={{marginTop:'15px'}} type="button" className="btn btn-danger btn-sm del-btn">Delete</button>
           </div>
+          <input value={task.priority} type="text" placeholder="Priority" style={{width:'8%',marginTop:'10px',marginBottom:'10px',marginLeft:'25px',borderRadius:"8px",border:'hidden'}}></input>
         </div>
       );
     });
